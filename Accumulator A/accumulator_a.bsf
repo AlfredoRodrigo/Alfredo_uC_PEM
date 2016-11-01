@@ -22,7 +22,7 @@ agreement for further details.
 (header "symbol" (version "1.2"))
 (symbol
 	(rect 16 16 112 336)
-	(text "accumulator" (rect 5 0 121 14)(font "Liberation Sans" (font_size 8)))
+	(text "accumulator_a" (rect 5 0 143 14)(font "Liberation Sans" (font_size 8)))
 	(text "inst" (rect 8 305 41 316)(font "Liberation Sans" ))
 	(port
 		(pt 0 32)
