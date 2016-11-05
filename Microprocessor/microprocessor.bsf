@@ -1,0 +1,121 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 200 240)
+	(text "microprocessor" (rect 5 0 153 14)(font "Liberation Sans" (font_size 8)))
+	(text "inst" (rect 8 209 41 220)(font "Liberation Sans" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "CLK" (rect 21 27 52 41)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLR" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "CLR" (rect 21 43 52 57)(font "Liberation Sans" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "HLT" (rect 0 0 31 14)(font "Liberation Sans" (font_size 8)))
+		(text "HLT" (rect 132 27 163 41)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 32)(pt 168 32))
+	)
+	(port
+		(pt 184 48)
+		(output)
+		(text "Lm" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "Lm" (rect 142 43 163 57)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 48)(pt 168 48))
+	)
+	(port
+		(pt 184 64)
+		(output)
+		(text "Carry_Out" (rect 0 0 95 14)(font "Liberation Sans" (font_size 8)))
+		(text "Carry_Out" (rect 68 59 163 73)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 64)(pt 168 64))
+	)
+	(port
+		(pt 184 80)
+		(output)
+		(text "Sa" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "Sa" (rect 142 75 163 89)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 80)(pt 168 80))
+	)
+	(port
+		(pt 184 96)
+		(output)
+		(text "Sb" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "Sb" (rect 142 91 163 105)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 96)(pt 168 96))
+	)
+	(port
+		(pt 184 112)
+		(output)
+		(text "Sc" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "Sc" (rect 142 107 163 121)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 112)(pt 168 112))
+	)
+	(port
+		(pt 184 128)
+		(output)
+		(text "Sd" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "Sd" (rect 142 123 163 137)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 128)(pt 168 128))
+	)
+	(port
+		(pt 184 144)
+		(output)
+		(text "Se" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "Se" (rect 142 139 163 153)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 144)(pt 168 144))
+	)
+	(port
+		(pt 184 160)
+		(output)
+		(text "Sg" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "Sg" (rect 142 155 163 169)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 160)(pt 168 160))
+	)
+	(port
+		(pt 184 176)
+		(output)
+		(text "Sf" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "Sf" (rect 142 171 163 185)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 176)(pt 168 176))
+	)
+	(port
+		(pt 184 192)
+		(output)
+		(text "Sh" (rect 0 0 21 14)(font "Liberation Sans" (font_size 8)))
+		(text "Sh" (rect 142 187 163 201)(font "Liberation Sans" (font_size 8)))
+		(line (pt 184 192)(pt 168 192))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 208))
+	)
+)
